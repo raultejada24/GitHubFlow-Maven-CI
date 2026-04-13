@@ -11,3 +11,9 @@ All notable changes to this project will be documented in this file.
 - Basic Calculator logic (Addition)
 ### Fixed
 - Crash when adding negative numbers (Hotfix)
+## [1.2.0] - 2026-04-13
+### Added
+- Division operation with ArithmeticException handling
+- Security Policy (SECURITY.md)
+### Improved
+- Calculator internal documentation
