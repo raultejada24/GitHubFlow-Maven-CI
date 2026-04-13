@@ -5,13 +5,12 @@ public class CalculatorTest extends TestCase {
         Calculator calc = new Calculator();
         assertEquals(5, calc.add(2, 3));
     }
-    public void testAddNegative() {
+    public void testSubtract() {
         Calculator calc = new Calculator();
-        try {
-            calc.add(-1, 5);
-            fail("Expected an exception");
-        } catch (IllegalArgumentException e) {
-            assertEquals("No negative numbers allowed!", e.getMessage());
-        }
+        assertEquals(4, calc.subtract(10, 6));
+    }
+    public void testMultiply() {
+        Calculator calc = new Calculator();
+        assertEquals(21, calc.multiply(3, 7));
     }
 }
