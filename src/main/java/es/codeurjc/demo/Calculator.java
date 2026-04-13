@@ -12,3 +12,4 @@ public class Calculator {
         return (double) a / b;
     }
 }
+// Optimized for DevOps CI/CD Lifecycle
