@@ -4,4 +4,6 @@ public class Calculator {
         if (a < 0 || b < 0) throw new IllegalArgumentException("No negative numbers allowed!");
         return a + b; 
     }
+    public int subtract(int a, int b) { return a - b; }
+    public int multiply(int a, int b) { return a * b; }
 }
