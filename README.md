@@ -7,3 +7,5 @@ This feature was developed using GitHub Flow and validated locally with Maven be
 
 ## Release v1.0.0
 Initial stable release with calculator functionality.
+
+
