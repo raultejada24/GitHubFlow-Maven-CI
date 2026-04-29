@@ -24,6 +24,3 @@ As per professional standards, the following commands are used to manage the pro
 - ``mvn compile``: Compile source code.
 - ``mvn test``: Execute the automated unit test suite (Current: **6 Tests Passing**).
 - ``mvn package``: Generate the deployable `.jar` file in the `target/` directory.
-
----
-**Verified by Automated CI Pipeline** | Developed by [Raúl Tejada]
